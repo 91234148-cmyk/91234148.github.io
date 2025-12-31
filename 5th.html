@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>製作美食網站的學習心得｜阿豪的美食日記</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Microsoft JhengHei", sans-serif;
+            background: #2c3e50;
+        }
+        .wrapper {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 25px 20px 40px 20px;
+        }
+        header {
+            text-align: center;
+            color: #ecf0f1;
+            margin-bottom: 15px;
+        }
+        nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #f1c40f;
+            margin: 0 8px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            background-color: #ecf0f1; /* 文字背景必須有顏色 */
+            color: #2c3e50;
+            border-radius: 8px;
+            padding: 20px;
+            line-height: 1.8;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+        }
+        h2 {
+            margin-top: 0;
+            color: #2980b9;
+        }
+        .back-home {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 6px 10px;
+            background-color: #2980b9;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        .back-home:hover {
+            background-color: #21618c;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <h1>製作美食網站的學習心得</h1>
+        <p>從零開始完成多頁式個人網站的紀錄</p>
+    </header>
+
+    <nav>
+        <a href="index.html">回首頁</a>
+        <a href="breakfast.html">早午餐</a>
+        <a href="hotpot.html">火鍋</a>
+        <a href="dessert.html">甜點</a>
+        <a href="learning.html">學習心得</a>
+    </nav>
+
+    <div class="content">
+        <h2>一開始的困難</h2>
+        <p>
+            一開始最困擾的是檔案命名與連結路徑，常常少打一個字或大小寫不一致，
+            連結就整個失效。後來養成習慣全部使用小寫檔名，並且預覽前都再確認一次。
+        </p>
+
+        <h2>學會的重點觀念</h2>
+        <p>
+            這次製作讓我更熟悉 HTML 的基本結構，例如 head、body、header、nav 和 section 的用途，
+            也知道怎麼用 a 標籤在多個網頁之間做超連結導航。[web:18][web:20]
+        </p>
+        <p>
+            此外，透過撰寫內嵌 CSS，練習了背景顏色、背景圖片、字體與版面配置，
+            了解小小的樣式調整就能讓整體感覺差很多。
+        </p>
+
+        <h2>未來的調整方向</h2>
+        <p>
+            如果之後要進一步優化，會想把 CSS 抽出去做成獨立樣式檔，這樣維護比較方便，
+            也可以嘗試做行動版響應式版面，讓用手機看食記也很舒服。
+        </p>
+
+        <a class="back-home" href="index.html">← 回首頁</a>
+    </div>
+</div>
+</body>
+</html>
